@@ -1,0 +1,151 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: var(--color-primary);
+    border-radius: 20px;
+    border: 3px solid var(--color-container-border);
+
+    padding: 20px 50px;
+    min-width: 300px;
+}
+
+.formTitle {
+    font-family: var(--font-family);
+    font-size: 1.7rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+
+    margin-bottom: 20px;
+}
+
+.formLabel {
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+
+    padding-bottom: 5px;
+}
+
+.formInput {
+    padding: 10px 10px;
+    font-family: var(--font-family);
+
+    border-radius: 10px;
+    border: none;
+
+    outline: none;
+
+    background-color: var(--color-input);
+    transition: box-shadow 0.1s ease;   
+}
+
+.formInput:focus {
+    box-shadow: 0 0 7px 3px var(--color-box-shadow);
+}
+
+.formSelect {
+    padding: 10px 10px;
+    font-family: var(--font-family);
+
+    border-radius: 10px;
+    border: none;
+
+    outline: none;
+
+    background-color: var(--color-input);
+    transition: box-shadow 0.1s ease;   
+}
+
+.formSelect:focus {
+    box-shadow: 0 0 7px 3px var(--color-box-shadow);
+}
+
+.formCheckboxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.formCheckbox {
+    font-family: var(--font-family);
+}
+
+.formCheckbox input {
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+
+    border-radius: 20px;
+    accent-color: var(--color-button-hover);
+    transition: transform 0.1s ease;
+}
+
+.formCheckbox input:checked {
+    box-shadow: 0 0 3px 1px var(--color-box-shadow);
+}
+
+.formCheckbox input:hover {
+    transform: scale(1.3);
+}
+
+.formBottons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    gap: 10px;
+
+    justify-content: center;
+}
+
+.formBtn {
+    font-family: var(--font-family);
+    font-size: 1.3rem;
+    padding: 10px 30px;
+
+    border-radius: 10px;
+    border: var(--button-border-width) solid transparent;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+
+.formBtnUpsert {
+    background-color: var(--color-green);
+}
+
+.formBtnUpsert:hover {
+    border: var(--button-border-width) solid var(--color-green-border);
+}
+
+.formBtnCancel {
+    background-color: var(--color-red);
+}
+
+.formBtnCancel:hover {
+    border: var(--button-border-width) solid var(--color-red-border);
+}
+
+
+
+
+

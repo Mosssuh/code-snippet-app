@@ -1,0 +1,43 @@
+
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin: 0 100px;
+}
+
+.appHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appContent {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.appPageTitle {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font-family);
+
+    justify-content: center;
+
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.appBtnContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: end;
+
+    gap: 10px;
+}

@@ -1,0 +1,70 @@
+.filterCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 350px;
+    height: auto;
+    padding: 10px 10px;
+
+    border: 2px solid var(--color-container-border);
+    border-radius: 20px;
+    
+    background-color: #e4f1e6;
+}
+
+.filterHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.filterTitle {
+    font-family: var(--font-family);
+    cursor: pointer;
+}
+
+.separator {
+    width: 100%;
+    height: 2px;
+    border: none;
+
+    background-color: var(--color-separator);
+    margin-bottom: 20px;
+}
+
+.filterLanguage {
+    padding-bottom: 20px;
+}
+
+.filterSection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    font-family: var(--font-family);
+}
+
+.filterLabel {
+    padding-bottom: 10px;
+}
+
+.filterButtons {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+/* Acciones del header: Clean */
+.filterHeaderActions {
+    display: flex;
+    gap: 8px;
+}
+
+

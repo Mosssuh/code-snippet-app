@@ -1,0 +1,14 @@
+
+.snippets {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 20px;
+}
+
+.emptySnippetsText {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}

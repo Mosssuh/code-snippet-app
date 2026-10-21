@@ -1,0 +1,92 @@
+
+.snippetDetails {
+    margin: 5% 20%;
+}
+
+.headerBottons {
+    margin-bottom: 5%;
+}
+
+.snippetContainer {
+    background-color: var(--color-primary);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--color-container-border);
+
+}
+
+.snippetHeader {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 2%;
+}
+
+.snippetTitle {
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+}
+
+.detailLanguage {
+    font-size: 1.5rem;
+    padding: 2px 50px;
+}
+
+.snippetCode {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #a0a0a0;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: auto;
+
+    color: gray;
+    white-space: pre;
+    line-height: 1.5;
+}
+
+.snippetTagsSection {
+    margin-top: 2%;
+}
+
+.snippetTagsTitle {
+    display: flex;
+    font-family: var(--font-family);
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.snippetTags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 5px;
+}
+
+.snippetExtra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.footerBottons {
+    margin-top: 5%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    justify-content: center;
+}
+
+

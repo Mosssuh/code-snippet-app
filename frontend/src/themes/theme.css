@@ -1,0 +1,113 @@
+.btns-bottom-design {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-top: auto;
+
+    justify-content: center;
+}
+
+
+.btn-design {
+    font-family: var(--font-family);
+    font-weight: 600;
+
+    border: var(--button-border-width) solid transparent;
+    border-radius: 7px;
+    padding: 4px 15px; 
+
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, border 0.3s ease;
+
+    cursor: pointer;
+}
+
+.btn-design:hover {
+    transform: translateY(-3px);
+}
+
+.btn-green-design {
+    background-color: var(--color-green);
+}
+
+.btn-green-design:hover {
+    border: var(--button-border-width) solid #147020;
+}
+
+.btn-blue-design {
+    background-color: var(--color-blue);
+}
+
+.btn-blue-design:hover {
+    border: var(--button-border-width) solid #143970;
+}
+
+.btn-red-design {
+    background-color: var(--color-red);
+}
+
+.btn-red-design:hover {
+    border: var(--button-border-width) solid #701a14;
+}
+
+
+.span-selected-design {
+    box-shadow: var(--box-shadow);
+}
+
+.span-design {
+    border-radius: 5px;
+    padding: 5px 10px;
+
+    transition: box-shadow 0.2s ease;
+}
+
+.span-design-v2 {
+    font-family: var(--font-family);
+    padding-left: 5px;  
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 30px;
+    white-space: pre;
+    align-content: center;
+
+    transition: transform 0.5s ease;
+}
+
+.span-design-v2:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+
+.span-design:hover {
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.span-green-design {
+    background-color: var(--color-span);
+    border: var(--button-border-width) solid var(--color-span-border);
+}
+
+.span-green-dark-design {
+    background-color: var(--color-green-dark);
+    border: var(--button-border-width) solid var(--color-span-border);
+}
+
+.span-white-design {
+    background-color: white;
+    border: var(--button-border-width) solid var(--color-span-border);
+}
+
+.span-blue-design {
+    background-color: var(--color-blue);
+    border: var(--button-border-width) solid var(--color-blue-border);
+}
+
+.span-pink-design {
+    background-color: var(--color-pink);
+    border: var(--button-border-width) solid var(--color-pink-border);
+}
